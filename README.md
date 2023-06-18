@@ -17,4 +17,3 @@
 >
 > Please install flug-in ESLINT into your IDE for code convention auto checking
 
-## License
