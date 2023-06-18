@@ -1,13 +1,16 @@
 import {useDispatch, useSelector} from "react-redux";
-import {useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 import {GetListData} from "../../store/reducer/DataList/action.ts";
 import {Container} from "@chakra-ui/react";
+import {Loading} from "../../components/Loading";
+import {COLORS} from "../../theme/colors.ts";
 
 
 function Home() {
     const dispatch = useDispatch()
     const [stateValue, setStateValue] = useState({year: "2023", team: "races", person: "", result: "", isURL: ""})
-    const {content} = useSelector((state: any) => state.ProductReducer.productList)
+    const productStore = useSelector((state: any) => state.ProductReducer)
+    console.log(productStore)
     useEffect(() => {
         dispatch(GetListData(stateValue))
     }, [stateValue,dispatch])
@@ -17,7 +20,20 @@ function Home() {
     })
 
     const getContent = () => {
-        return <Container maxW='container.xl' dangerouslySetInnerHTML={{__html: content}}/>
+        return (<>
+            {productStore.loadingProduct &&
+                <Container  position='fixed' top={'0'} left={'0'} zIndex={'1000'} minWidth={'100vw'} minHeight={'100vh'} background={'white'} opacity={'0.9'} display={'flex'} justifyContent={'center'} alignItems={'center'} >
+                    <Loading
+                        thickness='2px'
+                        speed='0.6s'
+                        emptyColor={COLORS.BLUE50}
+                        color={COLORS.BLUE900}
+                        size='xl'
+                    />
+                </Container>
+            }
+            <Container maxW='container.xl' dangerouslySetInnerHTML={{__html: productStore.productList.content}}/>
+        </> )
     }
 
     const handleGetValue = () => {
