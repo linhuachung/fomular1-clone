@@ -10,10 +10,6 @@ const axiosInstance = axios.create({
         'Content-Type': 'text/html',
         'Access-Control-Allow-Origin': 'http://localhost:3000'
     },
-    // proxy:{
-    //     host: "http://localhost:3000",
-    //     port: 3000
-    // }
 })
 
 axiosInstance.interceptors.request.use((config) => {
