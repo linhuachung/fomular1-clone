@@ -23,6 +23,9 @@
 > To learn more about React.js, take a look at the following resources:
 > [React.js Documentation](https://legacy.reactjs.org/) - learn about React.js features and API.
 > [Learn React.js](https://legacy.reactjs.org/docs/getting-started.html) - an interactive React.js tutorial.
+> 
+> You can check out [the React.js GitHub repository](https://github.com/linhuachung/fomular1-clone) - your feedback and contributions are welcome!
+
 
 
 ## Project structure
