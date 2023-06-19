@@ -19,13 +19,15 @@
 >
 > Please install flug-in ESLINT into your IDE for code convention auto checking
 
- ## Learn More
+## Learn More
 > To learn more about React.js, take a look at the following resources:
 > [React.js Documentation](https://legacy.reactjs.org/) - learn about React.js features and API.
 > [Learn React.js](https://legacy.reactjs.org/docs/getting-started.html) - an interactive React.js tutorial.
 > 
 > You can check out [the React.js GitHub repository](https://github.com/linhuachung/fomular1-clone) - your feedback and contributions are welcome!
 
+## Demo
+> You can [view demo video project and user guide](https://youtu.be/VZSPGT7SH_Q)
 
 
 ## Project structure
