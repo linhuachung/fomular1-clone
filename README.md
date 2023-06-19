@@ -5,6 +5,8 @@
 > NodeJS: `v18.16.0`
 >
 > YARN: `1.22.19`
+>
+>Frontend: `ReactJs 18.*.*`
 
 ### Install Dependencies
 > Install project dependencies: `yarn install`
@@ -17,6 +19,13 @@
 >
 > Please install flug-in ESLINT into your IDE for code convention auto checking
 >
+> ## Learn More
+
+To learn more about React.js, take a look at the following resources:
+
+- [React.js Documentation](https://legacy.reactjs.org/) - learn about React.js features and API.
+- [Learn React.js](https://legacy.reactjs.org/docs/getting-started.html) - an interactive React.js tutorial.
+
 > ## Project structure
 formular1-clone/
 ├── node_modules/
