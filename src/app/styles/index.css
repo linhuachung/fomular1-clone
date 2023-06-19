@@ -2299,14 +2299,6 @@ html {
   }
 }
 
-@font-face {
-  font-family: icomoon;
-  font-display: auto;
-  src: url(fonts/icomoon/fonts/icomoon.eot?x3ba1v);
-  src: url(fonts/icomoon/fonts/icomoon.eot?x3ba1v#iefix) format("embedded-opentype"),url(fonts/icomoon/fonts/icomoon.ttf?x3ba1v) format("truetype"),url(fonts/icomoon/fonts/icomoon.woff?x3ba1v) format("woff"),url(fonts/icomoon/fonts/icomoon.svg?x3ba1v#icomoon) format("svg");
-  font-weight: 400;
-  font-style: normal
-}
 
 .icon,.link-list--items.keyfacts-list li a::after,.nav-mobile-header .nav-burger button.close,.nav-mobile-header .nav-burger button.open,.page-assembly-banner-video .close-btn {
   font-family: icomoon!important;
@@ -3267,7 +3259,7 @@ html {
 @font-face {
   font-family: F1;
   font-display: auto;
-  src: url(/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.woff2) format("woff2"),url(/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.woff) format("woff");
+  src: url(https://www.formula1.com/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.woff2) format("woff2"),url(https://www.formula1.com/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.woff) format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap
@@ -3276,7 +3268,7 @@ html {
 @font-face {
   font-family: F1;
   font-display: auto;
-  src: url(/etc/designs/fom-website/fonts/F1RegularItalic/Formula1-Italic.woff2) format("woff2"),url(/etc/designs/fom-website/fonts/F1RegularItalic/Formula1-Italic.woff) format("woff");
+  src: url(https://www.formula1.com/etc/designs/fom-website/fonts/F1RegularItalic/Formula1-Italic.woff2) format("woff2"),url(https://www.formula1.com/etc/designs/fom-website/fonts/F1RegularItalic/Formula1-Italic.woff) format("woff");
   font-weight: 400;
   font-style: italic;
   font-display: swap
@@ -3285,7 +3277,7 @@ html {
 @font-face {
   font-family: F1Bold;
   font-display: auto;
-  src: url(/etc/designs/fom-website/fonts/F1Bold/Formula1-Bold.woff2) format("woff2"),url(/etc/designs/fom-website/fonts/F1Bold/Formula1-Bold.woff) format("woff");
+  src: url(https://www.formula1.com/etc/designs/fom-website/fonts/F1Bold/Formula1-Bold.woff2) format("woff2"),url(https://www.formula1.com/etc/designs/fom-website/fonts/F1Bold/Formula1-Bold.woff) format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap
@@ -3294,7 +3286,7 @@ html {
 @font-face {
   font-family: F1Black;
   font-display: auto;
-  src: url(/etc/designs/fom-website/fonts/F1Black/Formula1-Black.woff2) format("woff2"),url(/etc/designs/fom-website/fonts/F1Black/Formula1-Black.woff) format("woff");
+  src: url(https://www.formula1.com/etc/designs/fom-website/fonts/F1Black/Formula1-Black.woff2) format("woff2"),url(https://www.formula1.com/etc/designs/fom-website/fonts/F1Black/Formula1-Black.woff) format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap
@@ -3312,7 +3304,7 @@ html {
 @font-face {
   font-family: F1YEAR;
   font-display: auto;
-  src: url(/etc/designs/fom-website/fonts/F1YEAR/F1YEARRegular.woff2) format("woff2"),url(/etc/designs/fom-website/fonts/F1YEAR/F1YEARRegular.woff) format("woff");
+  src: url(https://www.formula1.com/etc/designs/fom-website/fonts/F1YEAR/F1YEARRegular.woff2) format("woff2"),url(https://www.formula1.com/etc/designs/fom-website/fonts/F1YEAR/F1YEARRegular.woff) format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap
@@ -7307,23 +7299,23 @@ html.ios .image-gallery .gallery-caption .gallery-description {
 }
 
 .rolex-clock--minutes {
-  background-image: url(images/rolex-clock/minute-hand.png)
+  background-image: url(https://www.formula1.com/etc/designs/fom-website/images/rolex-clock/minute-hand.png)
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2 / 1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx) {
   .rolex-clock--minutes {
-    background-image:url(images/rolex-clock/minute-hand@2x.png)
+    background-image:url(https://www.formula1.com/etc/designs/fom-website/images/rolex-clock/minute-hand@2x.png)
   }
 }
 
 .rolex-clock--seconds {
   animation: rotate 60s infinite linear;
-  background-image: url(images/rolex-clock/second-hand.png)
+  background-image: url(https://www.formula1.com/etc/designs/fom-website/images/rolex-clock/second-hand.png)
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2 / 1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx) {
   .rolex-clock--seconds {
-    background-image:url(images/rolex-clock/second-hand@2x.png)
+    background-image:url(https://www.formula1.com/etc/designs/fom-website/images/rolex-clock/second-hand@2x.png)
   }
 }
 
